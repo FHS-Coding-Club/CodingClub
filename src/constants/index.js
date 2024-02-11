@@ -26,7 +26,7 @@ const projects = [
   {
     name: "NHS Tutor App",
     description:
-      "Web App for the NHS Tutoring Program built using Next.js and Firebase. The app is used by students to sign up for tutoring sessions.",
+      "Web App for the NHS Tutoring Program built using Next.js and Firebase. The app is used by Mr.Decker to create tutoring sessions.",
     image: tutorMeImage,
   },
   {
