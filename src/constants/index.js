@@ -19,7 +19,7 @@ const projects = [
   {
     name: "Roar Store App",
     description:
-      "Mobile App for the Roar Store built using React Native and Firebase. The app is used by students to buy and sell items within the school.",
+      "Mobile App for the Roar Store built using React Native and Firebase. The app is used by students to buy items within the school store.",
     image:
       "https://static.hudl.com/users/temp/3831171_bd1403ee7b194d1bae30cd9d28787d8c.jpg",
   },
