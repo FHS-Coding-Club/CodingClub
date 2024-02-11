@@ -6,10 +6,21 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
+  const containerVariants = {
+    hidden: { opacity: 0, x: -100 },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: { type: "tween", duration: 0.8 },
+    },
+  };
   return (
     <div className="xl:mt-12 flex justify-center items-center overflow-hidden">
       <motion.div
-        variants={slideIn("left", "tween", 0.2, 1)}
+        variants={containerVariants}
+        initial="hidden" // Set the initial state to 'hidden'
+        whileInView="visible" // Trigger 'visible' state when component comes into view
+        viewport={{ once: false }}
         className="flex-[0.75] bg-[#121211] p-8 rounded-2xl mx-auto text-center"
         style={{ maxWidth: "1000px", padding: "4rem 2rem", minHeight: "500px" }} // Adjust the maxWidth to control the size
       >

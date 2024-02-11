@@ -1,21 +1,43 @@
 import React from "react";
-
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+
+// Define a slide-in variant for the project cards
+const slideInVariant = {
+  hidden: { x: -100, opacity: 0 },
+  visible: {
+    x: 0,
+    opacity: 1,
+    transition: { type: "spring", stiffness: 100, damping: 10, delay: 0.3 },
+  },
+};
+
+// Define a slide-in variant for the text
+const textSlideInVariant = {
+  hidden: { x: -100, opacity: 0 },
+  visible: {
+    x: 0,
+    opacity: 1,
+    transition: { type: "spring", stiffness: 100, damping: 10 },
+  },
+};
+
 const ProjectCard = ({ index, name, description, image, source_code_link }) => {
   return (
     <motion.div
-      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      variants={slideInVariant}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: false }}
       className="bg-[#242625] p-5 rounded-2xl sm:w-[360px] w-full"
     >
       <div className="relative w-full h-[230px]">
         <img
           src={image}
-          alt="project_image"
+          alt={name}
           className="w-full h-full object-cover rounded-2xl"
         />
       </div>
@@ -30,22 +52,22 @@ const ProjectCard = ({ index, name, description, image, source_code_link }) => {
 
 const Projects = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText} text-center`}>Projects</h2>
+    <div className="mt-20">
+      <motion.div
+        variants={textSlideInVariant}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false }}
+        className="text-center"
+      >
+        <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
-      <div className="w-full flex">
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
-        ></motion.p>
-      </div>
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="flex flex-wrap gap-7 justify-center mt-10">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
