@@ -1,2 +1,1 @@
-# codingclubportfolioo
-# codingclubportfolioo
+Website for FHS Coding Club
