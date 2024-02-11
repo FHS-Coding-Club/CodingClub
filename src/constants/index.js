@@ -15,78 +15,6 @@ export const navLinks = [
   },
 ];
 
-const services = [
-  {
-    title: "Web Developer",
-  },
-  {
-    title: "React Native Developer",
-  },
-  {
-    title: "Backend Developer",
-  },
-  {
-    title: "Content Creator",
-  },
-];
-
-const technologies = [
-  {
-    name: "HTML 5",
-  },
-  {
-    name: "CSS 3",
-  },
-  {
-    name: "JavaScript",
-  },
-  {
-    name: "TypeScript",
-  },
-  {
-    name: "React JS",
-  },
-  {
-    name: "Redux Toolkit",
-  },
-  {
-    name: "Tailwind CSS",
-  },
-  {
-    name: "Node JS",
-  },
-  {
-    name: "MongoDB",
-  },
-  {
-    name: "Three JS",
-  },
-  {
-    name: "git",
-  },
-  {
-    name: "figma",
-  },
-  {
-    name: "docker",
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I've secured 3rd rank in a competitive entrance test AP-ECET which is state wide examination in stream of CSE in year 2020",
-  },
-  {
-    testimonial:
-      "I've secured 98rd rank in a competitive entrance test TS-ECET which is state wide examination in stream of CSE in in year 2020",
-  },
-  {
-    testimonial:
-      "I've attended multiple hackathons and won some of them during my education.I've been to interstate competitions ended up among the top",
-  },
-];
-
 const projects = [
   {
     name: "Roar Store App",
@@ -110,4 +38,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, testimonials, projects };
+export { projects };
