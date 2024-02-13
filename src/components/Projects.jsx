@@ -5,7 +5,6 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 
-// Define a slide-in variant for the project cards
 const slideInVariant = {
   hidden: { x: -100, opacity: 0 },
   visible: {
@@ -15,7 +14,6 @@ const slideInVariant = {
   },
 };
 
-// Define a slide-in variant for the text
 const textSlideInVariant = {
   hidden: { x: -100, opacity: 0 },
   visible: {
