@@ -23,7 +23,7 @@ const textSlideInVariant = {
   },
 };
 
-const ProjectCard = ({ index, name, description, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, image,  }) => {
   return (
     <motion.div
       variants={slideInVariant}
