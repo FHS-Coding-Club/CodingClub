@@ -18,11 +18,11 @@ const Contact = () => {
     <div className="xl:mt-12 flex justify-center items-center overflow-hidden">
       <motion.div
         variants={containerVariants}
-        initial="hidden" // Set the initial state to 'hidden'
-        whileInView="visible" // Trigger 'visible' state when component comes into view
+        initial="hidden"
+        whileInView="visible"
         viewport={{ once: false }}
         className="flex-[0.75] bg-[#121211] p-8 rounded-2xl mx-auto text-center"
-        style={{ maxWidth: "1000px", padding: "4rem 2rem", minHeight: "500px" }} // Adjust the maxWidth to control the size
+        style={{ maxWidth: "1000px", padding: "4rem 2rem", minHeight: "500px" }}
       >
         <h3 className={`${styles.sectionHeadText} mb-4`}>Interested?</h3>
         <p className={styles.sectionSubText}>Fill Out This Form</p>
