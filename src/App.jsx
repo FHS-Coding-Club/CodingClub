@@ -8,6 +8,7 @@ import {
   Projects,
   StarsCanvas,
 } from "./components";
+import Pictures from "./components/Pictures";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         </div>
         <div className="px-auto">
           <About />
+          <Pictures />
           <Projects />
         </div>
         <div className="relative z-0">
