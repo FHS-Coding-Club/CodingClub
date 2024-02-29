@@ -28,9 +28,9 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Fill Out This Form</p>
 
         <div className="mt-[6rem] ml-[5rem]">
-          <a href="https://forms.gle/JEVyfutfhmAJzmch8" target="_blank">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfAjbKeAjjlNA4Mm2mKYeBYmo4hi3uqjgTMHsMaSY3s5nAtpQ/viewform?usp=sf_link" target="_blank">
             <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSfN9g0ue_xSZGmu-y_ghaBXFn9vmCueEV0hrULpbKEYeoqcSw/viewform?embedded=true"
+              src="https://docs.google.com/forms/d/e/1FAIpQLSfAjbKeAjjlNA4Mm2mKYeBYmo4hi3uqjgTMHsMaSY3s5nAtpQ/viewform?usp=sf_link"
               width="700"
               height="600"
               frameborder="0"
