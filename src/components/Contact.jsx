@@ -27,7 +27,7 @@ const Contact = () => {
         <h3 className={`${styles.sectionHeadText} mb-4`}>Interested?</h3>
         <p className={styles.sectionSubText}>Fill Out This Form</p>
 
-        <div className="mt-[6rem] ml-[5rem]">
+        <div className="mt-[6rem] ml-[1rem]">
           <a href="https://forms.gle/JEVyfutfhmAJzmch8" target="_blank">
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSfN9g0ue_xSZGmu-y_ghaBXFn9vmCueEV0hrULpbKEYeoqcSw/viewform?embedded=true"
