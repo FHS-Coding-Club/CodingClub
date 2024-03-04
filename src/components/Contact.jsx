@@ -27,11 +27,19 @@ const Contact = () => {
         <h3 className={`${styles.sectionHeadText} mb-4`}>Interested?</h3>
         <p className={styles.sectionSubText}>Fill Out This Form</p>
 
-        <div className="mt-[6rem]">
-          <a href="https://forms.gle/JEVyfutfhmAJzmch8" target="_blank">
-            <button className="bg-tertiary py-4 px-8 rounded-xl outline-none text-4xl text-white font-bold shadow-md shadow-primary hover:bg-black transition ease-in-out duration-300">
-              Form
-            </button>
+        <div className="mt-[6rem] ml-[1rem]">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfAjbKeAjjlNA4Mm2mKYeBYmo4hi3uqjgTMHsMaSY3s5nAtpQ/viewform?usp=sf_link" target="_blank">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSfAjbKeAjjlNA4Mm2mKYeBYmo4hi3uqjgTMHsMaSY3s5nAtpQ/viewform?usp=sf_link"
+              width="700"
+              height="600"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+              className="rounded-2xl sm:w-full w-[500px]"
+            >
+              Loading…
+            </iframe>
           </a>
         </div>
       </motion.div>

@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@material-tailwind/html": "^2.2.2",
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^0.9.284",
     "react": "^18.2.0",
