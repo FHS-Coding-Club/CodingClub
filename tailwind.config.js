@@ -24,7 +24,9 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
+
         "hero-pattern": "url('/src/assets/herob.png')",
+
         circularLight:
           "repeating-radial-gradient(rgba(255,255,255,0.5) 2px,#000 8px,#000 110px);",
         circularLightLg:
