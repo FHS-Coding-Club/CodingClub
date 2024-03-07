@@ -21,7 +21,7 @@ const Contact = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: false }}
-        className="flex-[0.75] bg-[#121211] p-8 rounded-2xl mx-auto text-center"
+        className="flex-[0.75] bg-[#121211] p-8 rounded-2xl mx-auto text-center "
         style={{ maxWidth: "1000px", padding: "4rem 2rem", minHeight: "500px" }}
       >
         <h3 className={`${styles.sectionHeadText} mb-4`}>Interested?</h3>

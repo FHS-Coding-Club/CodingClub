@@ -23,7 +23,7 @@ const textSlideInVariant = {
   },
 };
 
-const ProjectCard = ({ index, name, description, image,  }) => {
+const ProjectCard = ({ index, name, description, image, url }) => {
   return (
     <motion.div
       variants={slideInVariant}
@@ -33,11 +33,13 @@ const ProjectCard = ({ index, name, description, image,  }) => {
       className="bg-[#242625] p-5 rounded-2xl sm:w-[360px] w-full"
     >
       <div className="relative w-full h-[230px]">
-        <img
-          src={image}
-          alt={name}
-          className="w-full h-full object-cover rounded-2xl"
-        />
+        <a href={url} target="_blank" rel="noopener noreferrer">
+          <img
+            src={image}
+            alt={name}
+            className="w-full h-full object-cover rounded-2xl transition-opacity duration-300 ease-in-out hover:opacity-40 cursor-pointer"
+          />
+        </a>
       </div>
 
       <div className="mt-5">
