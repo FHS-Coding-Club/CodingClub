@@ -11,8 +11,10 @@ const Hero = () => {
       <div
         className={`absolute inset-0 top-[1vh] xl:ml-[5rem] z-[15] max-w-auto mx-auto flex flex-col w-full items-center   justify-center ${styles.paddingX}   gap-5`}
       >
-        <div className=" max-w-7xl mx-auto w-full text-center pl-1lg:pl-5 ">
-          <h1 className={`${styles.heroHeadText} text-white cursor-pointer  `}>
+        <div className=" max-w-7xl mx-auto w-full  text-center sm:text-center ">
+          <h1
+            className={`${styles.heroHeadText} text-white cursor-pointer sm:pr-[16px] `}
+          >
             <br />
             FHS
             <span className="text-[#ffc800] font-Andan font-thin">

@@ -10,6 +10,7 @@ const About = () => {
       <div className="flex-grow ">
         <div className="border border-white p-4 md:p-8 rounded-lg mx-auto md:ml-[8rem]  max-w-full  md:max-w-none ">
           <ul className="text-2xl">
+
             <li className="mb-5">
               We are a club at Franklin High School that makes cool projects.
             </li>
