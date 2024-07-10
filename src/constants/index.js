@@ -36,7 +36,7 @@ const projects = [
     description:
       "The USA Computing Olympiad (USACO) is a prestigious computer programming competition aimed at pre-college students in the United States, focusing on algorithms and problem-solving.",
     image:
-      "https://images.ctfassets.net/mrop88jh71hl/3NEfiekS1me0rqHfiHFz38/7566e5c54c9e374d3996f47e563833c1/Frame_35-min.png",
+      "https://static1.squarespace.com/static/61e9374e0434354049a258f9/t/64abc1d942e9410095e635ce/1688977885761/USACO.png?format=1500w",
     url: "https://usaco.org/",
   },
 ];
