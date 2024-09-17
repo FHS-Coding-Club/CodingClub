@@ -24,7 +24,7 @@ const Hero = () => {
 
           <div className="mt-4 flex justify-center sm:pr-[10rem] py-14">
             <button
-              className="bg-tertiary py-4 px-10 rounded-xl text-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-black border-2 border-transparent hover:border-white-100 transition ease-in-out delay-100 duration-300 hover:scale-90"
+              className="bg-tertiary py-4 px-10 rounded-xl text-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-black border-2 border-transparent hover:border-white-100 transition ease-in-out delay-100 duration-300 hover:scale-90 sm:w-1/5"
               onClick={() => scrollToSection("#contact")}
             >
               Interested?
